@@ -10,11 +10,11 @@ import Home from './Pages/Home';
 import Products from './Pages/Products';
 
 const router = createBrowserRouter([
-  {path: '/', element: <Home />},
-  {path: '/cart', element: <Carts />},
+  {path: '/', element: <Home/>},
+  {path: '/cart', element: <Carts/>},
   {path: '/about', element: <Abouts/>},
-  {path: '/products', element: <Products />},
-  {path: '*', element: <Error />},
+  {path: '/products', element: <Products/>},
+  {path: '*', element: <Error/>},
 ])
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
