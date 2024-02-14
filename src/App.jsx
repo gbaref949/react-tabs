@@ -25,6 +25,7 @@ function App () {
                     <div class="spinner-icon"></div>
                 </div>
             </section>
+            
         )
     }
 
